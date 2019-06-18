@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% strings-pt.clo
+%% NOVA thesis configuration file
+%%
+%% Costumization for language depedent strings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Portuguese - strings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abstractstring[pt]={Resumen}
+\keywordsstring[pt]={Palabras-clave}
+\notdefined[pt]={NÃO DEFINIDO}
+\acknowledgementsstring[pt]={Agradecimentos}
+
+\adviserstr[1,m,pt]={Orientador}
+\adviserstr[1,f,pt]={Presentado por}
+\adviserstr[2,m,pt]={Orientadores}
+\adviserstr[2,f,pt]={Orientadoras}
+\coadviserstr[1,m,pt]={Co-orientador}
+\coadviserstr[1,f,pt]={Presentado por}
+\coadviserstr[2,m,pt]={Co-orientadores}
+\coadviserstr[2,f,pt]={Co-orientadoras}
+
+\committeetitlestr[pt]={Ingeniero:}
+\commiteememberstr[c,1,m,pt]={Director}
+\commiteememberstr[c,1,f,pt]={Director}
+\commiteememberstr[c,2,m,pt]={Presidentes}
+\commiteememberstr[c,2,f,pt]={Presidentes}
+\commiteememberstr[r,1,m,pt]={Arguente}
+\commiteememberstr[r,1,f,pt]={Arguente}
+\commiteememberstr[r,2,m,pt]={Arguentes}
+\commiteememberstr[r,2,f,pt]={Arguentes}
+\commiteememberstr[a,1,m,pt]={Orientador}
+\commiteememberstr[a,1,f,pt]={Presentado por}
+\commiteememberstr[a,2,m,pt]={Orientadores}
+\commiteememberstr[a,2,f,pt]={Orientadoras}
+\commiteememberstr[m,1,m,pt]={Vogal}
+\commiteememberstr[m,1,f,pt]={Vogal}
+\commiteememberstr[m,2,m,pt]={Vogais}
+\commiteememberstr[m,2,f,pt]={Vogais}
+\commiteememberstr[g,1,m,fr]={Convidado}
+\commiteememberstr[g,1,f,fr]={Convidada}
+\commiteememberstr[g,2,m,fr]={Convidados}
+\commiteememberstr[g,2,f,fr]={Convidadas}
+
+\degreestr[bsc,m,pt]={Licenciado}
+\degreestr[bsc,f,pt]={Licenciada}
+\degreestr[msc,m,pt]={Mestre}
+\degreestr[msc,f,pt]={Mestre}
+\degreestr[mscplan,m,pt]={Mestre}
+\degreestr[mscplan,f,pt]={Mestre}
+\degreestr[phd,m,pt]={Especialista}
+\degreestr[phd,f,pt]={Doutora}
+\degreestr[phdplan,m,pt]={Especialista}
+\degreestr[phdplan,f,pt]={Doutora}
+\degreestr[phdprop,m,pt]={Especialista}
+\degreestr[phdprop,f,pt]={Doutora}
+
+\docdegreestr[bsc,pt]={Projeto de Licenciatura}
+\docdegreestr[mscplan,pt]={Preparação de Dissertação de Mestrado}
+\docdegreestr[msc,pt]={Dissertação de Mestrado}
+\docdegreestr[phdplan,pt]={Plano de Tese de Doutoramento}
+\docdegreestr[phdprop,pt]={Proposta de Tese de Doutoramento}
+\docdegreestr[phd,pt]={Tese de Doutoramento}
+
+\dissertationstr[bsc,pt]={Relatório para obtenção do Grau de %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ em\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+\dissertationstr[mscplan,pt]={Relatório intermédio para obtenção do Grau de %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ em\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+\dissertationstr[msc,pt]={Tesis que para Optar por el Grado de: %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ em\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+\dissertationstr[phdplan,pt]={Relatório intermédio para obtenção do Grau de %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ em\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+\dissertationstr[phdprop,pt]={Tesis que para Optar por el Grado de: %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ em\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+\dissertationstr[phd,pt]={Tesis que para Optar por el Grado de: %
+\thedegreestr[\novathesis@opt@docdegree,\theauthorgender,\novathesis@opt@coverlang]\ en\\[1ex] \textbf{\themajorfield[\novathesis@opt@coverlang]}}
+
+\copyrighttextstr[pt]={A la \thefaculty[\novathesis@opt@copyrightlang]\ y la \theuniversity[\novathesis@opt@copyrightlang]\ tienen el derecho, perpetuo y sin límites geográficos, de archivar y publicar esta disertación a través de ejemplares impresos reproducidos en papel o de forma digital, o por cualquier otro medio conocido o que venga a ser inventado, y de divulgarla a través de repositorios científicos y de admitir su copia y distribución con objetivos educativos o de investigación, no comerciales, siempre que se dé crédito al autor y editor.}
+\acknowledgmentsstr[pt]={Este documento fue generado por el procesador (pdf)\LaTeX, com base de template “novathesis” [1] y editado por José Armando Son Rojas [2].\quad[1] \url{https://github.com/jsonArmando/thesis}\quad[2] \url{https://www.uelbosque.edu.co}}
