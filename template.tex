@@ -117,13 +117,16 @@
 %\usepackage{colortbl}    % Use colors in background of table cells
 \usepackage[textsize=footnotesize]{todonotes}  % To register TODO notes in the text
 \setlength{\marginparwidth}{3.25cm}
-
+\ifx\HCode\UnDef\else\hypersetup{tex4ht}\fi
+\hypersetup{tex4ht}
+\usepackage[driverfallback=dvipdfm]{hyperref}
+\usepackage[pdftex]{hyperref}
 %% For automatic adding month and year
 \usepackage[calc]{datetime2}
 \usepackage{fancyhdr}
 \fontfamily{tahoma}  
-%\usepackage{fontspec}
-%\setmainfont{Tahoma}
+\usepackage{fontspec}
+\setmainfont{Tahoma}
 \fontseries{b} %ignored
 \pagestyle{fancy}
 \fancyhead[r]{EPI-089}

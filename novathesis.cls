@@ -1043,7 +1043,7 @@
 
 
 
-\novathesisExecuteAtEndClassFile
+%\novathesisExecuteAtEndClassFile
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Generate book spine (if otion "spine=true")
